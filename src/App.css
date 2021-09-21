@@ -1,5 +1,39 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+
+}
+
+tbody, thead {
+  width: 100%;
+}
+
+th, td {
+  width: 20%;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+  width: 100%;
 }
 
 .App-logo {
